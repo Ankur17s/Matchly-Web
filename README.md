@@ -13,7 +13,7 @@
     - sudo systemctl start nginx
     - sudo systemctl enable nginx
     - copy code from dist(build files) to /var/www/html
-    - sudo scp -r /var/www/html
+    - sudo scp -r dist/* /var/www/html
     - Enable port :80 of your instance
 
 - Backend
